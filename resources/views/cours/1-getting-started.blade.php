@@ -7,7 +7,7 @@
             {{ __('dashboard.')}}
         </p>
 
-        <x-torchlight-code language='php' contents="/views/cours/highlighting/exo1/corpsHTML.php" />
+        <x-torchlight-code language='html' contents="/views/cours/highlighting/exo1/corpsHTML.php" />
     </div>
     <div class="sub">
         <h3 class="sub-title">NPM</h3>
