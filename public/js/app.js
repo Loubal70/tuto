@@ -8181,14 +8181,6 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 window.Alpine = alpinejs__WEBPACK_IMPORTED_MODULE_0__["default"];
 alpinejs__WEBPACK_IMPORTED_MODULE_0__["default"].start();
 
-window.onload = function () {
-  var hauteur = document.documentElement.scrollHeight - window.innerHeight;
-  var position = window.scrollY;
-  var largeur = document.documentElement.clientWidth;
-  var barre = position / hauteur * largeur;
-  document.getElementById("barre").style.width = barre + "px";
-};
-
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":
