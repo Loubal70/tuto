@@ -1,0 +1,20 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500&display=swap";
+
+@font-face {
+	font-family: CircularStd;
+	src: local("CircularStd-Book"), local("CircularStd"), url(../fonts/CircularStd-Book.ed76eb21.woff) format("woff");
+	font-style: normal;
+	font-weight: 350;
+}
+@font-face {
+	font-family: CircularStd;
+	src: local("CircularStd-Medium"), local("CircularStd"), url(../fonts/CircularStd-Medium.bb9a359a.woff) format("woff");
+	font-style: normal;
+	font-weight: 500;
+}
+@font-face {
+	font-family: CircularStd;
+	src: local("CircularStd-Bold"), local("CircularStd"), url(../fonts/CircularStd-Bold.1ced22ee.woff) format("woff");
+	font-style: normal;
+	font-weight: 700;
+}
