@@ -21,17 +21,17 @@ return [
     // @see https://torchlight.dev/docs/options 
     'options' => [
         // Turn line numbers on or off globally
-        // 'lineNumbers' => true,
+        'lineNumbers' => true,
  
-        // // Control the `style` attribute applied to line numbers.
-        // // 'lineNumbersStyle' => '',
+        // Control the `style` attribute applied to line numbers.
+        // 'lineNumbersStyle' => '',
  
-        // // Turn on +/- diff indicators.
-        // 'diffIndicators' => true,
+        // Turn on +/- diff indicators.
+        'diffIndicators' => true,
  
-        // // If there are any diff indicators for a line, put them
-        // // in place of the line number to save horizontal space.
-        // 'diffIndicatorsInPlaceOfLineNumbers' => true,
+        // If there are any diff indicators for a line, put them
+        // in place of the line number to save horizontal space.
+        'diffIndicatorsInPlaceOfLineNumbers' => true,
  
         // When lines are collapsed, this is the text that will
         // be shown to indicate that they can be expanded.
