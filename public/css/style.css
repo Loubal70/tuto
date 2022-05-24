@@ -209,6 +209,24 @@ body {
   position: relative;
 }
 
+b {
+  color: rgb(2, 123, 251);
+}
+b:before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: rgb(2, 123, 251);
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+b:hover {
+  width: 100%;
+}
+
 #barre {
   height: 10px;
   width: 0;
