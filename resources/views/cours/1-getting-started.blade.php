@@ -104,9 +104,8 @@
       
     </div>
 
+    <h2 class="section-title" id="points_curve">{{ __('exo1.Points to the curve') }}</h2>
     <div class="sub">
-        <h3 class="sub-title mb-16">{{ __('exo1.Points to the curve') }}</h3>
-
         <p class="text">
             {{ __("exo1.Now we're going to make things a little more complex, a little more interesting. We will add points to the curve, which will be displayed when the curve is drawn. The points will appear at the right time on the curve.") }}
         </p>

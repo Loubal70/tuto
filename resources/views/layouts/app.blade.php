@@ -75,6 +75,9 @@
                                         <li>                        
                                             <a href="{{ route('getting_started') }}#CSS" class="menu__item">CSS / JS</a>
                                         </li>
+                                        <li>                        
+                                            <a href="{{ route('getting_started') }}#points_curve" class="menu__item">Points to the curve</a>
+                                        </li>
                                     </ul>
                                 </div>
             
