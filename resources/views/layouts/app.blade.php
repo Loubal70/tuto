@@ -35,6 +35,7 @@
 
                 @else
                 <div id="app">
+                    <div id="barre"></div>
                     <aside class="menu">
                         <a href="{{ route('dashboard') }}" class="menu__logo">
                             ScrumBox<span class="color"> Courses</span>
@@ -85,7 +86,7 @@
                         </nav>
                     </aside>
                     <div class="site-content" style="--delay: .2s">
-                        <div id="barre"></div>
+                        
                         <div class="wrapper">
             @endif
 
