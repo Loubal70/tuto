@@ -65,7 +65,7 @@
                         </x-jet-dropdown>
                         <nav class="menu__nav">
                             <ul class="menu__menu">
-                                <a href="{{ route('dashboard') }}" class="menu__item {{ (request()->routeIs('dashboard')) ? 'active' : "" }}">Introduction</a>
+                                <a href="{{ route('home') }}" class="menu__item {{ (request()->routeIs('home')) ? 'active' : "" }}">Introduction</a>
                                 <div class="menu__submenu">
                                     <a href="{{ route('getting_started') }}" class="menu__item {{ (request()->routeIs('getting_started')) ? 'active' : "" }}">{{ __('dashboard.Getting started') }}</a>
                                     <ul>

@@ -10,6 +10,7 @@ return [
     "We adjust the size of our div, itself containing our svg" => "We adjust the size of our div, itself containing our svg",
     "Normally if you have followed this far, you have a nice purple curve that appears on your screen in the middle. Good job." => "Normally if you have followed this far, you have a nice purple curve that appears on your screen in the middle. Good job.",
     "Several solutions: A script tag in your HTML file to place the javascript code, Create a separate file, link it to your file and write your javascript in it. I recommend the second option: it is better to have files with different functions, a matter of organization." => "Several solutions: A script tag in your HTML file to place the javascript code, Create a separate file, link it to your file and write your javascript in it. I recommend the second option: it is better to have files with different functions, a matter of organization.",
-    
+    "This line ensures that gsap uses these two plugins. They are “registered” in a certain way. It is not mandatory, but often without this clause there can be bugs." => "208 / 5 000 Résultats de traduction This line ensures that gsap uses these two plugins. They are “registered” in a certain way. It is not mandatory, but often without this clause there can be bugs.",
+
 
 ];

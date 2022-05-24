@@ -170,6 +170,10 @@ pre code.torchlight .summary-caret {
   margin-right: 1rem;
 }
 
+span.line-number {
+  margin-right: 10px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;

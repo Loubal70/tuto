@@ -41,7 +41,7 @@ Route::middleware([
 
 Route::get('/', function () {
     return view('dashboard');
-});
+})->name('home');
 
 Route::get('/getting_started', function () {
     return view('cours.1-getting-started');

@@ -69,6 +69,22 @@
             {!! __('exo1.Several solutions: A script tag in your HTML file to place the javascript code, Create a separate file, link it to your file and write your javascript in it. I recommend the second option: it is better to have files with different functions, a matter of organization.') !!}
         </p>
 
+        <x-torchlight-code language='js'>
+            gsap.registerPlugin(DrawSVGPlugin, ScrollTrigger);
+            // {{ __('This line ensures that gsap uses these two plugins. They are “registered” in a certain way. It is not mandatory, but often without this clause there can be bugs.') }}
+            const main = gsap.timeline({defaults: {duration: 1},
+            
+                scrollTrigger: {
+                    trigger: ".svgbox",
+                    scrub: true,
+                    pin: true,
+                    start: "bottom 90%",
+                    end: "bottom 20%",
+                    markers : true,
+                }
+            }).from(".curve1", {drawSVG: 0});
+        </x-torchlight-code>
+
        
     </div>
 

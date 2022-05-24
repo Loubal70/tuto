@@ -10,5 +10,6 @@ return [
     "We adjust the size of our div, itself containing our svg" => "Nous ajustons la taille de notre div, elle contient notre svg",
     "Normally if you have followed this far, you have a nice purple curve that appears on your screen in the middle. Good job." => "Normalement si vous avez suivi jusque-là, vous avez une belle courbe violette qui s’affiche sur votre écran en plein milieu. Bien ouèj.",
     "Several solutions: A script tag in your HTML file to place the javascript code, Create a separate file, link it to your file and write your javascript in it. I recommend the second option: it is better to have files with different functions, a matter of organization." => "Plusieurs solutions : Une balise script dans votre fichier HTML pour y placer le code javascript, Créer un fichier à part, le lier à fichier HTML et écrire votre javascript à l'intérieur. Je vous recommande la seconde option : il est mieux d’avoir des fichiers avec des fonctions différentes, question d’organisation.",
-     
+    "This line ensures that gsap uses these two plugins. They are “registered” in a certain way. It is not mandatory, but often without this clause there can be bugs." => "Cette ligne permet d’assurer vis-à-vis de gsap qu’on utilise ces deux plugins. On les « enregistre » d’une certaine manière. Ce n’est pas obligatoire, mais souvent sans cette clause, il peut y avoir des bugs",
+    
 ];
