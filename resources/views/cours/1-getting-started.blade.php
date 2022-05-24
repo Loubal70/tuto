@@ -110,6 +110,8 @@
             {{ __("exo1.Now we're going to make things a little more complex, a little more interesting. We will add points to the curve, which will be displayed when the curve is drawn. The points will appear at the right time on the curve.") }}
         </p>
 
+        <h3 class="sub-title mb-16">{{ __('exo1.Start by adding this to your HTML, in your SVG tag after your two curves:') }}</h3>
+
         <x-torchlight-code language='html'>
             <circle class="ball ball02" cx="300" cy="445" r="20"/> 
             <circle class="ball ball04" cx="672" cy="250" r="20"/>
@@ -118,10 +120,33 @@
         <p class="text mt-10">
             {!! __("exo1.These circle tags are usually not used much, but are very useful here. The <b>ball</b> class serves for the display of our ball, or circle, and the classes ball02 and ball03 are used to identify the balls independently, to be able to display the first one, then the second one. The parameters <b>cx</b> and <b>cy</b> allow you to place the circle in the right place with pixel values, relative to the <b>svg</b> tag in which the <b>circle</b> are located. We have <b>cx</b> for the abscissa, and <b>cy</b> for the ordinate. Knowing that they are circles, the <b>r</b> parameters allow them to give a radius, here of 20 pixels. If you have another curve, or you want to customize your points, add more, feel free!") !!}
         </p>
-        
+
+        <h3 class="sub-title mb-16">{{ __('exo1.Add this to your CSS:') }}</h3>
+
+        <x-torchlight-code language='css'>
+            .ball { 
+                stroke :#EDE8E6; 
+                stroke-width: 5px; 
+                z-index : 9999; 
+                fill :#635283; 
+                visibility : hidden; 
+            }
+        </x-torchlight-code>
+
+        <h3 class="sub-title mb-16">{{ __("exo1.Then this in your javascript BEFORE declaring your 'main' constant:") }}</h3>
+        <x-torchlight-code language='js'>
+            const pulses = gsap.timeline({ 
+                defaults: { 
+                  autoAlpha: 1, 
+                  ease: "elastic.out(2.5, 1)" 
+                }}) 
+               .to(".ball02", {}, 0.15) 
+               .to(".ball03", {}, 0.45)
+        </x-torchlight-code>
+
         <div class="info-box mt-10"><img src="img/warning.svg" alt="">
             <p class="info-box-text">
-                {{ __('exo1.Normally if you have followed this far, you have a nice purple curve that appears on your screen in the middle. Good job.') }}
+                {{ __('exo1.Finally on your javascript code, return to the declaration of the main variable (const main =). Go to the last line .from(".curve1", {drawSVG: 0}) ), remove the semicolon, go to the line and add ".add(pulses, 0);"') }}
             </p>
         </div>
 
