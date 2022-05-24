@@ -150,6 +150,20 @@
             </p>
         </div>
 
+        <x-torchlight-code language='js'>
+            const main = gsap.timeline({defaults: {duration: 1},
+                    scrollTrigger: {
+                        trigger: ".svgbox",
+                        scrub: true,
+                        pin: true,
+                        start: "bottom 90%",
+                        end: "bottom 20%",
+                        markers : true,
+                    }})
+                    .from(".curve1", {drawSVG : 0})
+                    .add(pulses, 0);
+        </x-torchlight-code>
+
     </div>
 
     <div class="page-footer">

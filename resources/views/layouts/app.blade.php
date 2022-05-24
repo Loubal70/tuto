@@ -85,6 +85,7 @@
                         </nav>
                     </aside>
                     <div class="site-content" style="--delay: .2s">
+                        <div id="barre"></div>
                         <div class="wrapper">
             @endif
 
