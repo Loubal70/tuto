@@ -6,13 +6,8 @@
         <p class="text">   
             {{ __('dashboard.')}}
         </p>
-<pre class="code-snippet">{{ '<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
-></script>' }}   
-</pre>  
 
-<x-torchlight-code language='php'>
-    echo "Hello World!";
-</x-torchlight-code>
+        <x-torchlight-code language='php' content="/views/cours/highlighting/exo1/corpsHTML.php" />
     </div>
     <div class="sub">
         <h3 class="sub-title">NPM</h3>
