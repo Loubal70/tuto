@@ -116,8 +116,15 @@
         </x-torchlight-code>
 
         <p class="text mt-10">
-            {!! __("exo1.These few lines help animate our curve. We create a constant <b>main</b>, which will correspond to a gsap timeline. Timeline can be translated as 'chronology', which means that we speaks of a beginning, an end, and potentially of events occurring between this beginning and this end. To this chronology, we give it a duration of 1. This duration is indicative because this animation will be animated at the scroll, it has no real duration in itself. But this duration value will be useful for placing points on the curve next. To this timeline, we add a scrolltrigger. I mentioned it before, the Scrolltrigger allows to interact with the scroll of the page, in a direct way with the user. Here, we initializes it, and tells it that our trigger, our interactive scroll 'trigger', will be the <b>svgbox</b> div. This indicates that our animation will concern this div, and will be triggered at the this tag. What you see to the left of the ':' are the parameters, and to the right are the values of these parameters. There are a lot of possible parameters, the GSAP documentation and the forums are very well supplied for this. The <b>scrub: true</b> parameter means that the animation is coordinated with the scroll, it does is not activated only once, it follows the scroll. The <b>true</b> value for the pin parameter allows the element to be pinned fixedly in the viewport the time of the animation. The viewport is everything that is displayed on the screen at a given time of the scroll. Without this value, the animation will be triggered according to the other parameters, but the element will not remain fixed during the animation. It is noted that this parameter can be disabled depending on the screen size, for example on mobile, it is not necessary to pin the animation until it is finished, you can let it animate while you scroll.") !!}
-        </p>       
+            {!! __("exo1.These circle tags are usually not used much, but are very useful here. The <b>ball</b> class serves for the display of our ball, or circle, and the classes ball02 and ball03 are used to identify the balls independently, to be able to display the first one, then the second one. The parameters <b>cx</b> and <b>cy</b> allow you to place the circle in the right place with pixel values, relative to the <b>svg</b> tag in which the <b>circle</b> are located. We have <b>cx</b> for the abscissa, and <b>cy</b> for the ordinate. Knowing that they are circles, the <b>r</b> parameters allow them to give a radius, here of 20 pixels. If you have another curve, or you want to customize your points, add more, feel free!") !!}
+        </p>
+        
+        <div class="info-box mt-10"><img src="img/warning.svg" alt="">
+            <p class="info-box-text">
+                {{ __('exo1.Normally if you have followed this far, you have a nice purple curve that appears on your screen in the middle. Good job.') }}
+            </p>
+        </div>
+
     </div>
 
     <div class="page-footer">
