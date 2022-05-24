@@ -213,9 +213,10 @@ body {
   height: 10px;
   width: 0;
   border-radius: 0 50px 50px 0;
-  position: absolute;
+  position: fixed;
   top: 0;
-  background: linear-gradient(to right, rgb(2, 123, 251), rgba(2, 123, 251, 0));
+  left: 34.4rem;
+  background: linear-gradient(to right, rgb(2, 123, 251), rgb(2, 123, 251));
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
