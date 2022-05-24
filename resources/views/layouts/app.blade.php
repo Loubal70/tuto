@@ -70,7 +70,7 @@
                                     <a href="{{ route('getting_started') }}" class="menu__item {{ (request()->routeIs('getting_started')) ? 'active' : "" }}">{{ __('dashboard.Getting started') }}</a>
                                     <ul>
                                         <li>                        
-                                            <a href="{{ route('getting_started') }}" class="menu__item">Getting started</a>
+                                            <a href="{{ route('getting_started') }}#Installation" class="menu__item">Installation</a>
                                         </li>
                                     </ul>
                                 </div>

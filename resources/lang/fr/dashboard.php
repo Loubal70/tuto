@@ -9,4 +9,5 @@ return [
     "Now that we know why, you need to use GSAP, let's move on to the next part!" => "Maintenant que nous savons pourquoi, vous devez utiliser GSAP, dirigeons nous vers la prochaine partie !",
     "Next" => "Suivant",
     "Getting started" => "Commencer",
+    "Previous" => "Précédent",
 ];

@@ -14,8 +14,13 @@
 :focus {
 	outline: none;
 }
+:target{
+    scroll-margin-top: 5rem;
+}
+
 html {
 	font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 $blue: rgb(2, 123, 251);
@@ -367,8 +372,8 @@ p {
 	position: relative;
 }
 .site-content {
-	max-width: 80rem;
+	max-width: 100rem;
 	margin: 0 auto;
-	padding: 16rem 0 16rem 13.6rem;
+	padding: 16rem 0 16rem 20rem;
 	animation: top 1s var(--delay) both;
 }

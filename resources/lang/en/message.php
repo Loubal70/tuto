@@ -45,4 +45,5 @@ return [
    "Log Out" => "Log Out",
    "Manage Account" => "Manage Account",
    "GSAP sont les initiales " => "GSAP are the initials ",
+
 ];

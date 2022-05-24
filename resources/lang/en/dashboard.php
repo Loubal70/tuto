@@ -8,5 +8,6 @@ return [
     "For example, to hide an element on the page, GSAP gradually changes the opacity of the element from 1 to 0. The job of animating a web page is to break down a property and change it by its speed or rhythm." => "For example, to hide an element on the page, GSAP gradually changes the opacity of the element from 1 to 0. The job of animating a web page is to break down a property and change it by its speed or rhythm.",
     "Now that we know why, you need to use GSAP, let's move on to the next part!" => "Now that we know why, you need to use GSAP, let's move on to the next part!",
     "Next" => "Next",
+    "Previous" => "Previous",
     "Getting started" => "Getting started",
 ];

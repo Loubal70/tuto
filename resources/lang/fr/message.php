@@ -45,4 +45,5 @@ return [
    "Log Out" => "Déconnexion",
    "Manage Account" => "Gérer le compte",
    "GSAP sont les initiales " => "GSAP are the initials ",
+
 ];

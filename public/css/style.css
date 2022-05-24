@@ -185,8 +185,13 @@ pre code.torchlight .summary-caret {
   outline: none;
 }
 
+:target {
+  scroll-margin-top: 5rem;
+}
+
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -546,9 +551,9 @@ p {
 }
 
 .site-content {
-  max-width: 80rem;
+  max-width: 100rem;
   margin: 0 auto;
-  padding: 16rem 0 16rem 13.6rem;
+  padding: 16rem 0 16rem 20rem;
   -webkit-animation: top 1s var(--delay) both;
           animation: top 1s var(--delay) both;
 }
