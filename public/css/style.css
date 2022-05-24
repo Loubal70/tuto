@@ -224,7 +224,7 @@ b:before {
   opacity: 0;
   transition: all 0.3s ease-in-out;
 }
-b:hover {
+b:hover:before {
   opacity: 1;
   width: 110%;
 }

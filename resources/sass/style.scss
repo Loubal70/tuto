@@ -47,8 +47,10 @@ b{
 		transition: all 0.3s ease-in-out;
 	}
 	&:hover{
-		opacity: 1;
-		width: 110%;
+		&:before{
+			opacity: 1;
+			width: 110%;
+		}
 	}
 }
 #barre{
