@@ -13,7 +13,7 @@
             </p>
         </div>
 
-        <x-torchlight-code language='html' contents="/views/cours/highlighting/exo1/corpsHTML.blade.php" />
+        <x-torchlight-code language='html' contents="/views/cours/highlighting/exo1/corpsHTML.php" />
     </div>
 
     <div class="sub">
@@ -48,7 +48,7 @@
                 stroke-linecap: round;
                  // {{ __('exo1.This function makes it possible to round the end of the two curves in svg') }}
                 width : 50vw;
-                 // On règle la taille de notre div, elle-même contenant notre svg
+                 // {{ __('exo1.We adjust the size of our div, itself containing our svg')}}
                 margin-left: auto;
                 margin-right: auto;
                 margin-bottom : 100px;
