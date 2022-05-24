@@ -133,7 +133,7 @@
             }
         </x-torchlight-code>
 
-        <h3 class="sub-title mb-16">{{ __("exo1.Then this in your javascript BEFORE declaring your 'main' constant:") }}</h3>
+        <h3 class="sub-title my-16">{{ __("exo1.Then this in your javascript BEFORE declaring your 'main' constant:") }}</h3>
         <x-torchlight-code language='js'>
             const pulses = gsap.timeline({ 
                 defaults: { 
