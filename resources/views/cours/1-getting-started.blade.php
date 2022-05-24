@@ -46,23 +46,28 @@
              
             .svgbox {
                 stroke-linecap: round;
-                 // {{ __('exo1.This function makes it possible to round the end of the two curves in svg') }}
+                 /* {{ __('exo1.This function makes it possible to round the end of the two curves in svg') }}*/
                 width : 50vw;
-                 // {{ __('exo1.We adjust the size of our div, itself containing our svg')}}
+                 /* {{ __('exo1.We adjust the size of our div, itself containing our svg')}} */
                 margin-left: auto;
                 margin-right: auto;
                 margin-bottom : 100px;
             }
         </x-torchlight-code>
-        <p class="text mt-10">   
-            {{ __("exo1.First, create a folder for this exercise. From your text editor, click at the top left on 'File' then 'Open a folder' indicating the folder you have previously created. Create an HTML file, add the basic HTML body. You can now import GSAP as well as the two plugins.")}}
-        </p>
 
-        <div class="info-box"><img src="img/warning.svg" alt="">
+        <div class="info-box mt-10"><img src="img/warning.svg" alt="">
             <p class="info-box-text">
-                {{ __('exo1.Note that the DrawSVG plugin is part of the GSAP paid plugins, the link provided here will only work locally, or on a codepen for example.') }}
+                {{ __('exo1.Normally if you have followed this far, you have a nice purple curve that appears on your screen in the middle. Good job.') }}
             </p>
         </div>
+    </div>
+
+    <div class="sub">
+        <h3 class="sub-title mb-10">JS</h3>
+
+        <p class="text">
+            {!! __('exo1.Several solutions: A script tag in your HTML file to place the javascript code, Create a separate file, link it to your file and write your javascript in it. I recommend the second option: it is better to have files with different functions, a matter of organization.') !!}
+        </p>
 
        
     </div>
