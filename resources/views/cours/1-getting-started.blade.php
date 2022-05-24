@@ -165,7 +165,7 @@
         </x-torchlight-code>
 
         <p class="text mt-10">
-            {{ __('exo1.Magic! When scrolling you have small circles that appear in the right place, and at just the right time! How does this all work then? <br><br> We have defined a constant that we called pulses, like a heartbeat, because well why not. You can call him Michel if you want. Everyone has their own tastes after all... <br><br> If you have a good eye you have already noticed that in the css that you just added, the <b>.balls</b> are in <b>visibility: hidden</b>, so they are hidden, and we make them appear in javascript.') }}
+            {!! __('exo1.Magic! When scrolling you have small circles that appear in the right place, and at just the right time! How does this all work then? <br><br> We have defined a constant that we called pulses, like a heartbeat, because well why not. You can call him Michel if you want. Everyone has their own tastes after all... <br><br> If you have a good eye you have already noticed that in the css that you just added, the <b>.balls</b> are in <b>visibility: hidden</b>, so they are hidden, and we make them appear in javascript.') !!}
         </p>
 
     </div>
