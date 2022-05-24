@@ -160,6 +160,9 @@ pre code.torchlight .line {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+pre code.torchlight .line span {
+  margin-right: 10px;
+}
 
 /*
  Push the code away from the line numbers and
