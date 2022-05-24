@@ -13,7 +13,7 @@
             </p>
         </div>
 
-        <x-torchlight-code language='html' contents="/views/cours/highlighting/exo1/corpsHTML.php" />
+        <x-torchlight-code language='html' contents="/views/cours/highlighting/exo1/corpsHTML.blade.php" />
     </div>
 
     <div class="sub">
