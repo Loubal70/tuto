@@ -965,6 +965,9 @@ select {
 .prose > :where(:last-child):not(:where([class~="not-prose"] *)) {
   margin-bottom: 0;
 }
+.static {
+  position: static;
+}
 .fixed {
   position: fixed;
 }
@@ -1088,6 +1091,9 @@ select {
 }
 .mb-10 {
   margin-bottom: 2.5rem;
+}
+.mb-16 {
+  margin-bottom: 4rem;
 }
 .mb-0 {
   margin-bottom: 0px;
