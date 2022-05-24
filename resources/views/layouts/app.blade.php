@@ -72,6 +72,9 @@
                                         <li>                        
                                             <a href="{{ route('getting_started') }}#Installation" class="menu__item">Installation</a>
                                         </li>
+                                        <li>                        
+                                            <a href="{{ route('getting_started') }}#CSS" class="menu__item">CSS</a>
+                                        </li>
                                     </ul>
                                 </div>
             
