@@ -211,6 +211,7 @@ body {
 
 b {
   color: rgb(2, 123, 251);
+  position: relative;
 }
 b:before {
   content: " ";
