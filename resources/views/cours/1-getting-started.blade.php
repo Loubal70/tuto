@@ -168,6 +168,18 @@
             {!! __('exo1.Magic! When scrolling you have small circles that appear in the right place, and at just the right time! How does this all work then? <br><br> We have defined a constant that we called pulses, like a heartbeat, because well why not. You can call him Michel if you want. Everyone has their own tastes after all... <br><br> If you have a good eye you have already noticed that in the css that you just added, the <b>.balls</b> are in <b>visibility: hidden</b>, so they are hidden, and we make them appear in javascript.') !!}
         </p>
 
+        <p class="text mt-10">
+            {!! __('exo1.In our new constant <b>pulses</b>, the value <b>autoAlpha: 1</b> indicates that the opacity will be 1, i. e. through this constant, what will be passed as a parameter will definitely be in opacity 1, therefore clearly displayed on the screen. The parameter just below concerns the animation of what will be passed as parameter. Finally, the <b>circle</b> will be passed as a parameter to this constant, they will be in opacity 1 (remember that they are in visibility : hidden) and will have a slight animation which again is not really an animation because we animate at the scroll, it is not as if the animation was displayed only once at a given time. The difference is that when scrolling you can go back or forward like a video.') !!}
+        </p>
+
+        <p class="text mt-10">
+            {!! __('exo1.This said, this <b>ease</b> setting allows for no not to display the circles all at once, but to have them displayed relatively progressively. If you want to play with the possibilities of this parameter, I refer you to the doc that is very well supplied at this level: https://greensock. com/docs/v2/Easing.') !!}
+        </p>
+
+        <p class="text mt-10">
+            {!! __("exo1.Then, we apply this constant with the <b>.to</b> clause to our two circles, i. e <b>.ball02</b> and <b>ball03</b> at 0.15 and 0.45 seconds respectively. Right now it doesn't mean much, but to put it another way, the <b>.ball02</b> will appear on the screen with the ease effect at 15% of curve evolution, and the <b>.ball03</b> will be displayed at 45% of the curve evolution still with the ease effect.") !!}
+        </p>
+
     </div>
 
     <div class="page-footer">
