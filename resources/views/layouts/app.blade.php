@@ -65,6 +65,7 @@
                                 @endforeach
                             </x-slot>
                         </x-jet-dropdown>
+
                         <nav class="menu__nav">
                             <ul class="menu__menu">
                                 <a href="{{ route('home') }}" class="menu__item {{ (request()->routeIs('home')) ? 'active' : "" }}">Introduction</a>
@@ -82,7 +83,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <a href="{{ route('activite2') }}" class="menu__item {{ (request()->routeIs('activite2')) ? 'active' : "" }}">{{ __('exo2.Activity 2') }}</a>
+                                @if ($exercices[0]->allow === 1)
+                                    <a href="{{ route('activite2') }}" class="menu__item {{ (request()->routeIs('activite2')) ? 'active' : "" }}">{{ __('exo2.Activity 2') }}</a>
+                                @endif
 
             
                             </ul>

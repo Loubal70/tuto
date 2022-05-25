@@ -43,6 +43,10 @@ body {
     border-radius: 5px;
     width: fit-content;
     color: white;
+
+	&.btn-danger{
+		background: rgb(251 2 2);
+	}
 }
 
 b{

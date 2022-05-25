@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
@@ -48,9 +49,33 @@ Route::get('/getting_started', function () {
 })->name('getting_started');
 
 Route::get('/ce_nest_pas_le_lien_de_lactivite_2', function () {
-    return view('cours.2-activite2');
+    $exercice = DB::select('select * from exercices where id = ?', [1]);
+    if( $exercice[0]->allow == 1 ) return view('cours.2-activite2');
+
+    return back();
+    
 })->name('activite2');
 
 Route::get('/ce_nest_pas_le_lien_de_lactivite_2/answers', function () {
-    return view('cours.2-activite2-reponse');
+    $exercice = DB::select('select * from exercices where id = ?', [1]);
+    if( $exercice[0]->allow == 1 ) return view('cours.2-activite2-reponse');
+
+    return back(); 
+});
+
+Route::middleware(['auth', 'role:admin'])->group(function () {
+    Route::get('/admin', function () {
+        $exercices = DB::select('SELECT * FROM exercices') ;
+        return view('admin.dashboard', ['exercices' => $exercices]);
+    })->name('admin');
+
+    Route::get('/active/{id}', function ($id) {
+        DB::update('update exercices set allow = 1 where id = ?', [$id]);
+        return back();
+    })->name('active');
+
+    Route::get('/desactive/{id}', function ($id) {
+        DB::update('update exercices set allow = 0 where id = ?', [$id]);
+        return back();
+    })->name('desactive');
 });

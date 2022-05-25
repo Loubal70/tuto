@@ -303,6 +303,9 @@ body {
   width: fit-content;
   color: white;
 }
+.btn.btn-danger {
+  background: rgb(251, 2, 2);
+}
 
 b {
   color: rgb(2, 123, 251);
