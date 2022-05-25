@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class DatabaseSeeder extends Seeder
 {
@@ -13,6 +14,15 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
+        DB::table("exercices")->insert([
+            "name" => "Exercice 2",
+            "allow" => 0
+        ]);
+
+        DB::table("exercices")->insert([
+            "name" => "Exercice 3",
+            "allow" => 0
+        ]);
+
     }
 }
