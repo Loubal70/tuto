@@ -35,6 +35,7 @@
 
                 @else
                 <div id="app">
+                    <div id="particles"></div>
                     <div id="barre"></div>
                     <aside class="menu">
                         <a href="{{ route('home') }}" class="menu__logo">
