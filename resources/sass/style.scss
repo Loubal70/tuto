@@ -33,6 +33,18 @@ body {
 	overflow-x: hidden;
 	position: relative;
 }
+
+.btn{
+	display: block;
+    text-align: center;
+    margin: 4rem auto;
+    background: $blue;
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    color: white;
+}
+
 b{
 	color: $blue;
 	position: relative;

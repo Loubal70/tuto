@@ -291,6 +291,19 @@ body {
   position: relative;
 }
 
+.btn {
+  display: block;
+  text-align: center;
+  margin: 4rem auto;
+  background: rgb(2, 123, 251);
+  padding: 10px;
+  border-radius: 5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: white;
+}
+
 b {
   color: rgb(2, 123, 251);
   position: relative;

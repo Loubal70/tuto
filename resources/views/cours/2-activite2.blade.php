@@ -1,6 +1,5 @@
 <x-app-layout>
-    <h1 class="page-title">{{ __('dashboard.Getting started') }}</h1>
-    <h2 class="section-title" id="Installation">{{ __("exo2.Zoom images on scroll") }}</h2>
+    <h1 class="page-title">{{ __("exo2.Zoom images on scroll") }}</h1>
     <div class="sub">
         <h3 class="sub-title">{{ __("exo2.Links") }}</h3>
         <p class="text">   
@@ -10,11 +9,15 @@
             {{ __("exo2.For this exercise, you will have to develop your project on codepen!")}}
         </p>
 
-        <a href="https://codeshare.io/MNnRwe">{{ __('exo2.Download the necessary data') }}</a>
+        <a class="btn" target="_blank" href="https://codeshare.io/MNnRwe">{{ __('exo2.Download the necessary data') }}</a>
+
+        <p class="text mt-10">
+            {{ __("exo2.In order to carry out this exercise, here are some words that can help you find how to find the solution: <br><br> gsap.registerPlugin, querySelectorAll, images.forEach((el) => {}); <br><br> In order to use the scroll as an indicator, it will be necessary to define 'scrub: true'. You will apply a zoom of <b>1.5</b> (corresponds to 1.5 times the initial size).") }}
+        </p>
 
         <div class="info-box"><img src="img/warning.svg" alt="">
             <p class="info-box-text">
-                {{ __('exo1.Note that the DrawSVG plugin is part of the GSAP paid plugins, the link provided here will only work locally, or on a codepen for example.') }}
+                {{ __("exo2.Answer to the exercise: https://codepen.io/iamnito/pen/ZErXyxq") }}
             </p>
         </div>
 
