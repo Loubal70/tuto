@@ -87,7 +87,7 @@
                     </aside>
                     <div class="site-content" style="--delay: .2s">
                         
-                        <div class="wrapper">
+                        <div class="wrapper" id="wrapper">
             @endif
 
             
@@ -106,6 +106,7 @@
         @stack('modals')
 
         @livewireScripts
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
         <script src="/js/script.js"></script>
     </body>
 </html>

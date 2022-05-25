@@ -7,13 +7,13 @@
 </head>
 
 <body>
-    <!-- Contenu de votre page -->
+    <!-- Page Content -->
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/DrawSVGPlugin3.min.js"></script>
     
-    <!-- On place notre javascript après toutes les librairies GSAP afin ne pas avoir de bug -->
+    <!-- We place it at the end of the file to avoid bugs -->
     <script src="tonjs.js"></script>
 </body>
 </html>

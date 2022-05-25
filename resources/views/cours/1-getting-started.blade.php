@@ -95,7 +95,7 @@
             {!! __('exo1.The same logic applies to the end parameters. The first parameter means that end trigger is at 80% of the viewport, so it will be stuck to the start trigger. As a result, there will be a horizontal bar placed 80% from the top of <b>svgbox</b> which will be end and start trigger. The second end parameter is a concrete horizontal bar that is placed at 20% from the at the top of the viewport (this bar is therefore static on the page). It is therefore when the specified trigger has 80% over the second bar moved to 80% down from the top of the viewport (1st and 2nd start parameter) that the animation is triggered. Conversely for the end parameters, when the two bars meet, the animation is finished, all this coordinates with the scroll. You can have fun changing these parameters and observe the consequences visual, moreover, it is possible to add <b>markers: true</b>, as a parameter in the scrolltrigger to display the markers / breakpoints on the page and better understand how they work, in a much more graphic and clear manner.') !!}
         </p>
 
-        <iframe src="https://codepen.io/iamnito/full/mdXMgqL" frameborder="0" width="100%" height="650" sandbox="allow-same-origin allow-scripts allow-top-navigation allow-popups allow-pointer-lock allow-forms">
+        <iframe loading="lazy" src="https://codepen.io/iamnito/full/mdXMgqL" frameborder="0" width="100%" height="650" sandbox="allow-same-origin allow-scripts allow-top-navigation allow-popups allow-pointer-lock allow-forms">
         </iframe>
 
         <p class="text mt-10">
@@ -185,6 +185,8 @@
         <p class="text mt-10">
             {!! __("exo1.It is important to understand that these values have been chosen and are intended, as well as that the coordinates of <b>.ball02 and .ball03</b> . These 4 parameters have been chosen to work together. If you want to add more points, it's up to you to make it match!! The last thing we need to do with regard to animation is to link our constant making the circles appear with our main constant 'main' which manages the drawing of our curve. So all we had to do was simply add the <b>.add</b> clause with <b>pulses</b> as the parameter, our constant. The 0 makes sure that no animation has started at the beginning of the scroll trigger. This value coincides with 0. 15 and 0. 45 attributed for the appearance of circles. This seems logical to initialize, but if you don't do it nothing works...") !!}
         </p>
+
+        <h3 class="sub-title mb-16">{{ __('exo1.You should have this if you did everything right in order:') }}</h3>
 
     </div>
 
