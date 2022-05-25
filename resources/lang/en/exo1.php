@@ -30,6 +30,7 @@ return [
     "You should have this if you did everything right in order:" => "You should have this if you did everything right in order:",
     "4th step:" => "4th step:",
     "Great! Everything works! There’s still a little bit of background here. . . Yes, yes, yes. You remember at the beginning, we had vertical lines on the back, data in abscissa, etc. . . It’s time to add all this, in svg. Yes yes, in svg. By the way, you should know that there are dozens of sites to customize your svg to your liking. We'll just add some stuff to your svg in your HTML to make it more beautiful!" => "Great! Everything works! There’s still a little bit of background here. . . Yes, yes, yes. You remember at the beginning, we had vertical lines on the back, data in abscissa, etc. . . It’s time to add all this, in svg. Yes yes, in svg. By the way, you should know that there are dozens of sites to customize your svg to your liking. We'll just add some stuff to your svg in your HTML to make it more beautiful!",
+    "We start by adding the vertical lines, just before the 'path' tags but still in the 'svg' tag:" => "We start by adding the vertical lines, just before the 'path' tags but still in the 'svg' tag:",
     
 
 ];
