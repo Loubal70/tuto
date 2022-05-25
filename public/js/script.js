@@ -8,11 +8,21 @@ window.onload = () => {
 
         document.getElementById("barre").style.width = barre + "px";
     });
+
+    const closeBtn = document.querySelectorAll('.close-modal'),
+    modalContainer = document.getElementById(modalContent);
+    modalContainer.classList.add('show-modal');
+
+    function closeModal(){
+        const modalContainer = document.getElementById('modal-container')
+        modalContainer.classList.remove('show-modal')
+    }
+    closeBtn.forEach(c => c.addEventListener('click', closeModal))
 }
 
 var count = 50,
     particleClass = "particle",
-    particleColors = ["f6e58d", "#ffbe76", "#ff7979", "#badc58"],
+    particleColors = ["#e9e9e9", "#3b82f680", "#ff7979", "#badc58"],
     wrapper = document.getElementById("particles"),
     w = wrapper.offsetWidth,
     h = wrapper.offsetHeight,
@@ -27,6 +37,7 @@ for (var i = 0; i < count; i++) {
         x: gsap.utils.random(0, w),
         y: gsap.utils.random(0, h) - (h * 0.5),
         scale: gsap.utils.random(0.5, 1),
+        opacity: gsap.utils.random(0, 0.5),
         backgroundColor: gsap.utils.random(particleColors)
     });
     anime(elem);
