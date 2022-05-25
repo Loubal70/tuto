@@ -1,11 +1,16 @@
 <x-app-layout>
     <h1 class="page-title">{{ __('dashboard.Getting started') }}</h1>
-    <h2 class="section-title" id="Installation">Installation</h2>
+    <h2 class="section-title" id="Installation">{{ "exo2.Zoom images on scroll" }}</h2>
     <div class="sub">
-        <h3 class="sub-title">HTML / CDN</h3>
+        <h3 class="sub-title">{{ __("exo2.Links") }}</h3>
         <p class="text">   
-            {{ __("exo1.First, create a folder for this exercise. From your text editor, click at the top left on 'File' then 'Open a folder' indicating the folder you have previously created. Create an HTML file, add the basic HTML body. You can now import GSAP as well as the two plugins.")}}
+            {{ __("exo2.This exercise is independent! The goal is to animate an image when scrolling the page (when you go down the page) by integrating a zoom effect.")}}
         </p>
+        <p class="text mt-10">
+            {{ __("exo2.For this exercise, you will have to develop your project on codepen!")}}
+        </p>
+
+        <a href="https://codeshare.io/MNnRwe">{{ __('exo2.Download the necessary data') }}</a>
 
         <div class="info-box"><img src="img/warning.svg" alt="">
             <p class="info-box-text">

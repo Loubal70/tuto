@@ -241,7 +241,7 @@
     </div>
 
     <div class="page-footer">
-        <a href="{{ route('getting_started')}}" class="prev">
+        <a href="{{ route('home')}}" class="prev">
             <img src="img/arrow.svg" alt="">
             <div class="prev__meta"><span>{{ __('dashboard.Previous') }}</span>
                 <p>Introduction</p>
