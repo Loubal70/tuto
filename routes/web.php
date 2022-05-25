@@ -50,3 +50,7 @@ Route::get('/getting_started', function () {
 Route::get('/ce_nest_pas_le_lien_de_lactivite_2', function () {
     return view('cours.2-activite2');
 })->name('activite2');
+
+Route::get('/ce_nest_pas_le_lien_de_lactivite_2/answers', function () {
+    return view('cours.2-activite2-reponse');
+});
