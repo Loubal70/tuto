@@ -194,7 +194,6 @@
 
         <p class="text mt-10">
             {{ __("exo1.Great! Everything works! There’s still a little bit of background here. . . Yes, yes, yes. You remember at the beginning, we had vertical lines on the back, data in abscissa, etc. . . It’s time to add all this, in svg. Yes yes, in svg. By the way, you should know that there are dozens of sites to customize your svg to your liking. We'll just add some stuff to your svg in your HTML to make it more beautiful!") }}
-
         </p>
 
         <h3 class="sub-title my-16">{{ __("exo1.We start by adding the vertical lines, just before the 'path' tags but still in the 'svg' tag:") }}</h3>
@@ -206,6 +205,38 @@
             <line x1="560" y1="20" x2="560" y2="480" stroke="#CECECE" stroke-width="1"/> 
             <line x1="740" y1="20" x2="740" y2="480" stroke="#CECECE" stroke-width="1"/>
         </x-torchlight-code>
+
+        <p class="text mt-10">
+            {{ __("exo1.Nothing complicated, just the x-axis value changes, all spaced one same measure. <br /><br /> Then we finish by adding the values on the abscissa. In svg it is possible to add <b>text</b>, which are vector text. Hyper practical, you would say, and I totally agree with you.") }}
+        </p>
+
+        <x-torchlight-code language='html'>
+            <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 7.4px;" 
+                    x="9.709" y="491.347" transform="matrix(1.705896, 0, 0, 1.576253, -11.111875, - 278.975403)">
+                    2000
+            </text> 
+            <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 7.4px;" 
+                    x="9.709" y="491.347" transform="matrix(1.705896, 0, 0, 1.576253, 167.851242, - 278.745972)">
+                    2010
+            </text> 
+            <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 7.4px;" 
+                    x="9.709" y="491.347" transform="matrix(1.705896, 0, 0, 1.576253, 348.691925, - 277.494873)">
+                    2020
+            </text> 
+            <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 7.4px;" 
+            x="9.709" y="491.347" transform="matrix(1.705896, 0, 0, 1.576253, 529.409668, - 277.281067)">
+                    2030
+            </text> 
+            <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 7.4px;" 
+            x="9.709" y="491.347" transform="matrix(1.705896, 0, 0, 1.576253, 709.322693, - 276.857483)">
+                    2040
+            </text>
+        </x-torchlight-code>
+
+        <p class="text mt-10">
+            {{ __("exo1.Simply place these lines at the end of your <b>svg</b> tag. It looks complicated like this, but in reality, no. We apply to the text a color and a positioning, then we put the text there that we want, here dates for example. <br><br> And that's it! <br><br> (What's great is that it's also responsive. . . ) <br><br> We could possibly add other things, such as text that is displayed when hovering over the circles, like a bubble. . . This could be interesting! Perhaps in a next tuto :) <br><br> Find here: (<a href='https://codepen.io/iamnito/pen/yLvOdrx'>https://codepen.io/iamnito/pen/yLvOdrx</a>) the functional codepen you can use on your side, you can fork it, or just test the scroll animation! <br><br> Thank you for following this tutorial!")}}
+            
+        </p>
 
     </div>
 
