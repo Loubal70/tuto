@@ -247,10 +247,10 @@
                 <p>Introduction</p>
             </div>
         </a>
-        <a href="understand-basics" class="next">
+        <a href="{{ route('activite2') }}" class="next">
             <img src="img/arrow.svg" alt="">
             <div class="prev__meta"><span>{{ __('dashboard.Next') }}</span>
-                <p>Understand basics</p>
+                <p>{{ __('exo2.Activity 2') }}</p>
             </div>
         </a>
     </div>

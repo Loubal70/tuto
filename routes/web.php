@@ -46,3 +46,7 @@ Route::get('/', function () {
 Route::get('/getting_started', function () {
     return view('cours.1-getting-started');
 })->name('getting_started');
+
+Route::get('/ce_nest_pas_le_lien_de_lactivite_2', function () {
+    return view('cours.2-activite2');
+})->name('activite2');

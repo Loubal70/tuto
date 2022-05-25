@@ -82,7 +82,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <a href="{{ route('home') }}" class="menu__item {{ (request()->routeIs('home')) ? 'active' : "" }}">Test</a>
+                                <a href="{{ route('activite2') }}" class="menu__item {{ (request()->routeIs('activite2')) ? 'active' : "" }}">{{ __('exo2.Activity 2') }}</a>
 
             
                             </ul>
