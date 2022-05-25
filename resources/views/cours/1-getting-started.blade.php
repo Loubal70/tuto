@@ -234,8 +234,8 @@
         </x-torchlight-code>
 
         <p class="text mt-10">
-            {{ __("exo1.Simply place these lines at the end of your <b>svg</b> tag. It looks complicated like this, but in reality, no. We apply to the text a color and a positioning, then we put the text there that we want, here dates for example. <br><br> And that's it! <br><br> (What's great is that it's also responsive. . . ) <br><br> We could possibly add other things, such as text that is displayed when hovering over the circles, like a bubble. . . This could be interesting! Perhaps in a next tuto :) <br><br> Find here: (<a href='https://codepen.io/iamnito/pen/yLvOdrx'>https://codepen.io/iamnito/pen/yLvOdrx</a>) the functional codepen you can use on your side, you can fork it, or just test the scroll animation! <br><br> Thank you for following this tutorial!")}}
-            
+            {!! __("exo1.Simply place these lines at the end of your <b>svg</b> tag. It looks complicated like this, but in reality, no. We apply to the text a color and a positioning, then we put the text there that we want, here dates for example. <br><br> And that's it! <br><br> (What's great is that it's also responsive. . . ) <br><br> We could possibly add other things, such as text that is displayed when hovering over the circles, like a bubble. . . This could be interesting! Perhaps in a next tuto :) <br><br> Find here: (<a href='https://codepen.io/iamnito/pen/yLvOdrx'>https://codepen.io/iamnito/pen/yLvOdrx</a>) the functional codepen you can use on your side, you can fork it, or just test the scroll animation! <br><br> Thank you for following this tutorial!") !!}
+
         </p>
 
     </div>
