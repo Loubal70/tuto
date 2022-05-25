@@ -13,15 +13,15 @@ window.onload = () => {
 var count = 100,
     particleClass = "particle",
     particleColors = ["f6e58d", "#ffbe76", "#ff7979", "#badc58"],
-    container = document.getElementById("container"),
-    w = container.offsetWidth,
-    h = container.offsetHeight,
+    wrapper = document.getElementById("wrapper"),
+    w = wrapper.offsetWidth,
+    h = wrapper.offsetHeight,
     elem;
 
 for (var i = 0; i < count; i++) {
     elem = document.createElement('div');
     elem.className = particleClass;
-    container.appendChild(elem);
+    wrapper.appendChild(elem);
 
     gsap.set(elem, {
         x: gsap.utils.random(0, w),

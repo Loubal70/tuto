@@ -37,7 +37,7 @@
                 <div id="app">
                     <div id="barre"></div>
                     <aside class="menu">
-                        <a href="{{ route('dashboard') }}" class="menu__logo">
+                        <a href="{{ route('home') }}" class="menu__logo">
                             ScrumBox<span class="color"> Courses</span>
                         </a>
                         <x-jet-dropdown align="right" width="48">
@@ -81,6 +81,8 @@
                                         </li>
                                     </ul>
                                 </div>
+                                <a href="{{ route('home') }}" class="menu__item {{ (request()->routeIs('home')) ? 'active' : "" }}">Test</a>
+
             
                             </ul>
                         </nav>

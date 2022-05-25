@@ -1,6 +1,7 @@
 @import 'font';
 @import 'animation';
 @import 'torchlight';
+@import 'modal';
 
 * {
 	box-sizing: border-box;
@@ -366,7 +367,7 @@ p {
 
 	&__submenu ul{
 		li{
-			margin: 15px 0 15px 20px;
+			margin: 15px 0 15px 40px;
 
 			&:hover{
 				a{
