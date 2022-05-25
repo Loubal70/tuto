@@ -83,7 +83,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                                @if ($exercices[0]->allow === 1)
+                                @if ($exercices[0]->allow == 1)
                                     <a href="{{ route('activite2') }}" class="menu__item {{ (request()->routeIs('activite2')) ? 'active' : "" }}">{{ __('exo2.Activity 2') }}</a>
                                 @endif
 
