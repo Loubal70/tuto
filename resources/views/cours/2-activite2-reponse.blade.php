@@ -15,7 +15,7 @@
             {!! __("exo2.In order to carry out this exercise, here are some words that can help you find how to find the solution: <br><br> gsap.registerPlugin, querySelectorAll, images.forEach((el) => {}); <br><br> In order to use the scroll as an indicator, it will be necessary to define 'scrub: true'. You will apply a zoom of <b>1.5</b> (corresponds to 1.5 times the initial size).") !!}
         </p>
 
-        <div class="info-box"><img src="img/warning.svg" alt="">
+        <div class="info-box"><img src="{{ asset('img/warning.svg') }}" alt="">
             <p class="info-box-text">
                 {{ __("exo2.Answer to the exercise:") }} <a href="https://codepen.io/iamnito/pen/ZErXyxq" target="_blank">https://codepen.io/iamnito/pen/ZErXyxq</a>
             </p>
