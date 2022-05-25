@@ -168,6 +168,8 @@
             {!! __('exo1.Magic! When scrolling you have small circles that appear in the right place, and at just the right time! How does this all work then? <br><br> We have defined a constant that we called pulses, like a heartbeat, because well why not. You can call him Michel if you want. Everyone has their own tastes after all... <br><br> If you have a good eye you have already noticed that in the css that you just added, the <b>.balls</b> are in <b>visibility: hidden</b>, so they are hidden, and we make them appear in javascript.') !!}
         </p>
 
+        <div class="separator"></div>
+
         <p class="text mt-10">
             {!! __('exo1.In our new constant <b>pulses</b>, the value <b>autoAlpha: 1</b> indicates that the opacity will be 1, i. e. through this constant, what will be passed as a parameter will definitely be in opacity 1, therefore clearly displayed on the screen. The parameter just below concerns the animation of what will be passed as parameter. Finally, the <b>circle</b> will be passed as a parameter to this constant, they will be in opacity 1 (remember that they are in visibility : hidden) and will have a slight animation which again is not really an animation because we animate at the scroll, it is not as if the animation was displayed only once at a given time. The difference is that when scrolling you can go back or forward like a video.') !!}
         </p>
@@ -178,6 +180,10 @@
 
         <p class="text mt-10">
             {!! __("exo1.Then, we apply this constant with the <b>.to</b> clause to our two circles, i. e <b>.ball02</b> and <b>ball03</b> at 0.15 and 0.45 seconds respectively. Right now it doesn't mean much, but to put it another way, the <b>.ball02</b> will appear on the screen with the ease effect at 15% of curve evolution, and the <b>.ball03</b> will be displayed at 45% of the curve evolution still with the ease effect.") !!}
+        </p>
+
+        <p class="text mt-10">
+            {!! __("exo1.It is important to understand that these values have been chosen and are intended, as well as that the coordinates of <b>.ball02 and <b>.ball03</b> . These 4 parameters have been chosen to work together. If you want to add more points, it's up to you to make it match!! The last thing we need to do with regard to animation is to link our constant making the circles appear with our main constant 'main' which manages the drawing of our curve. So all we had to do was simply add the <b>.add</b> clause with <b>pulses</b> as the parameter, our constant. The 0 makes sure that no animation has started at the beginning of the scroll trigger. This value coincides with 0. 15 and 0. 45 attributed for the appearance of circles. This seems logical to initialize, but if you don't do it nothing works...") !!}
         </p>
 
     </div>
