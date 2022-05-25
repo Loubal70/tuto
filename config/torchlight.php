@@ -13,6 +13,10 @@ return [
  
     // If you want to register the blade directives, set this to true.
     'blade_components' => true,
+
+    'snippet_directories' => [
+        resource_path()
+    ],
  
     // The Host of the API.
     'host' => env('TORCHLIGHT_HOST', 'https://api.torchlight.dev'),
@@ -27,11 +31,11 @@ return [
         // 'lineNumbersStyle' => '',
  
         // Turn on +/- diff indicators.
-        'diffIndicators' => true,
+        // 'diffIndicators' => true,
  
         // If there are any diff indicators for a line, put them
         // in place of the line number to save horizontal space.
-        'diffIndicatorsInPlaceOfLineNumbers' => true,
+        // 'diffIndicatorsInPlaceOfLineNumbers' => true,
  
         // When lines are collapsed, this is the text that will
         // be shown to indicate that they can be expanded.
