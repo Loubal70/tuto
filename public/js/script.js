@@ -13,7 +13,7 @@ window.onload = () => {
 var count = 100,
     particleClass = "particle",
     particleColors = ["f6e58d", "#ffbe76", "#ff7979", "#badc58"],
-    wrapper = document.getElementById("wrapper"),
+    wrapper = document.getElementById("app"),
     w = wrapper.offsetWidth,
     h = wrapper.offsetHeight,
     elem;
