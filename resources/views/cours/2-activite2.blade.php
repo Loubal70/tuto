@@ -1,6 +1,6 @@
 <x-app-layout>
     <h1 class="page-title">{{ __('dashboard.Getting started') }}</h1>
-    <h2 class="section-title" id="Installation">{{ "exo2.Zoom images on scroll" }}</h2>
+    <h2 class="section-title" id="Installation">{{ __("exo2.Zoom images on scroll") }}</h2>
     <div class="sub">
         <h3 class="sub-title">{{ __("exo2.Links") }}</h3>
         <p class="text">   
