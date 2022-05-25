@@ -210,7 +210,7 @@ body {
 }
 
 b {
-  color: rgb(2, 123, 251);
+  color: #f8f32b;
   position: relative;
 }
 b:before {
@@ -237,7 +237,7 @@ b:hover:before {
   position: fixed;
   top: 0;
   left: 34.4rem;
-  background: linear-gradient(to right, rgb(2, 123, 251), rgb(2, 123, 251));
+  background: linear-gradient(to right, #f8f32b, #f8f32b);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   z-index: 10;
 }
@@ -405,7 +405,7 @@ p {
 }
 .section-title:before {
   content: "#";
-  color: rgb(2, 123, 251);
+  color: #f8f32b;
   margin-right: 0.8rem;
   font-weight: 350;
 }
@@ -416,7 +416,7 @@ p {
 }
 .sub-title:before {
   content: "•";
-  color: rgb(2, 123, 251);
+  color: #f8f32b;
   margin-right: 0.8rem;
   font-weight: 350;
 }
@@ -438,7 +438,7 @@ p {
 }
 
 .text-link {
-  color: rgb(2, 123, 251);
+  color: #f8f32b;
   text-decoration: underline;
 }
 
@@ -451,7 +451,7 @@ p {
 }
 .list li:before {
   content: "•";
-  color: rgb(2, 123, 251);
+  color: #f8f32b;
   margin-right: 0.8rem;
   font-weight: 350;
 }
@@ -465,7 +465,7 @@ p {
   display: flex;
   align-items: center;
   border-radius: 0.8rem;
-  border-left: 0.8rem solid rgb(2, 123, 251);
+  border-left: 0.8rem solid #f8f32b;
   padding: 2.4rem 4.8rem;
   background-color: #fafafa;
 }
@@ -551,7 +551,7 @@ p {
   text-transform: uppercase;
 }
 .menu__logo .color {
-  color: rgb(2, 123, 251);
+  color: #f8f32b;
   font-style: italic;
 }
 .menu__nav {
@@ -578,7 +578,7 @@ p {
   background-color: #f5f5f5;
 }
 .menu__item.active {
-  color: rgb(2, 123, 251);
+  color: #f8f32b;
   background-color: #fff;
   padding: 1.6rem 3.2rem 1.6rem 4rem;
 }
