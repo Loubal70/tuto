@@ -10,7 +10,7 @@ window.onload = () => {
     });
 }
 
-var count = 100,
+var count = 50,
     particleClass = "particle",
     particleColors = ["f6e58d", "#ffbe76", "#ff7979", "#badc58"],
     wrapper = document.getElementById("app"),
