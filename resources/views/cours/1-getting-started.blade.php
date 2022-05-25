@@ -190,13 +190,22 @@
 
         <iframe loading="lazy" src="https://codepen.io/iamnito/full/poarMwX" frameborder="0" width="100%" height="650" sandbox="allow-same-origin allow-scripts allow-top-navigation allow-popups allow-pointer-lock allow-forms"></iframe>
 
-        <h3 class="sub-title mb-16">{{ __('exo1.4th step:') }}</h3>
+        <h3 class="sub-title my-16">{{ __('exo1.4th step:') }}</h3>
 
         <p class="text mt-10">
             {{ __("exo1.Great! Everything works! There’s still a little bit of background here. . . Yes, yes, yes. You remember at the beginning, we had vertical lines on the back, data in abscissa, etc. . . It’s time to add all this, in svg. Yes yes, in svg. By the way, you should know that there are dozens of sites to customize your svg to your liking. We'll just add some stuff to your svg in your HTML to make it more beautiful!") }}
-            
+
         </p>
 
+        <h3 class="sub-title my-16">{{ __("exo1.We start by adding the vertical lines, just before the 'path' tags but still in the 'svg' tag:") }}</h3>
+
+        <x-torchlight-code language='html'>
+            <line x1="20" y1="20" x2="20" y2="480" stroke="#CECECE" stroke-width="1"/> 
+            <line x1="200" y1="20" x2="200" y2="480" stroke="#CECECE" stroke-width="1"/> 
+            <line x1="380" y1="20" x2="380" y2="480" stroke="#CECECE" stroke-width="1"/> 
+            <line x1="560" y1="20" x2="560" y2="480" stroke="#CECECE" stroke-width="1"/> 
+            <line x1="740" y1="20" x2="740" y2="480" stroke="#CECECE" stroke-width="1"/>
+        </x-torchlight-code>
 
     </div>
 
