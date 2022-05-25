@@ -8,16 +8,6 @@ window.onload = () => {
 
         document.getElementById("barre").style.width = barre + "px";
     });
-
-    const closeBtn = document.querySelectorAll('.close-modal'),
-    modalContainer = document.getElementById(modalContent);
-    modalContainer.classList.add('show-modal');
-
-    function closeModal(){
-        const modalContainer = document.getElementById('modal-container')
-        modalContainer.classList.remove('show-modal')
-    }
-    closeBtn.forEach(c => c.addEventListener('click', closeModal))
 }
 
 var count = 50,
