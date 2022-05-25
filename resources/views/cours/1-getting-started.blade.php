@@ -183,7 +183,7 @@
         </p>
 
         <p class="text mt-10">
-            {!! __("exo1.It is important to understand that these values have been chosen and are intended, as well as that the coordinates of <b>.ball02 and <b>.ball03</b> . These 4 parameters have been chosen to work together. If you want to add more points, it's up to you to make it match!! The last thing we need to do with regard to animation is to link our constant making the circles appear with our main constant 'main' which manages the drawing of our curve. So all we had to do was simply add the <b>.add</b> clause with <b>pulses</b> as the parameter, our constant. The 0 makes sure that no animation has started at the beginning of the scroll trigger. This value coincides with 0. 15 and 0. 45 attributed for the appearance of circles. This seems logical to initialize, but if you don't do it nothing works...") !!}
+            {!! __("exo1.It is important to understand that these values have been chosen and are intended, as well as that the coordinates of <b>.ball02 and .ball03</b> . These 4 parameters have been chosen to work together. If you want to add more points, it's up to you to make it match!! The last thing we need to do with regard to animation is to link our constant making the circles appear with our main constant 'main' which manages the drawing of our curve. So all we had to do was simply add the <b>.add</b> clause with <b>pulses</b> as the parameter, our constant. The 0 makes sure that no animation has started at the beginning of the scroll trigger. This value coincides with 0. 15 and 0. 45 attributed for the appearance of circles. This seems logical to initialize, but if you don't do it nothing works...") !!}
         </p>
 
     </div>
