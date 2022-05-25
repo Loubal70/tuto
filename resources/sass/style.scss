@@ -68,6 +68,13 @@ b{
 	z-index: 10;
 }
 
+.particule{
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+}
+
 .btn-languages{
     display: flex;
     align-items: center;
