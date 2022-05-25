@@ -7,5 +7,5 @@ return [
     "Links" => "Links",
     "For this exercise, you will have to develop your project on codepen!" => "For this exercise, you will have to develop your project on codepen!",
     "Download the necessary data" => "Download the necessary data",
-    
+
 ];
