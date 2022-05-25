@@ -26,7 +26,7 @@
 
     <div class="page-footer">
         <a href="{{ route('activite2') }}" class="prev">
-            <img src="{{ asset('img/arrow.svg') }} alt="">
+            <img src="{{ asset('img/arrow.svg') }}" alt="">
             <div class="prev__meta"><span>{{ __('dashboard.Previous') }}</span>
                 <p>{{ __('exo2.Activity 2') }}</p>
             </div>
