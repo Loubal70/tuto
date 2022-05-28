@@ -44,6 +44,8 @@ Route::get('/', function () {
     return view('dashboard');
 })->name('home');
 
+// Activité 2
+
 Route::get('/getting_started', function () {
     $exercice = DB::select('select * from exercices where id = ?', [3]);
     if( $exercice[0]->allow == 1 ) return view('cours.1-getting-started');
@@ -52,6 +54,7 @@ Route::get('/getting_started', function () {
     
 })->name('getting_started');
 
+// Activité 1
 Route::get('/ce_nest_pas_le_lien_de_lactivite_2', function () {
     $exercice = DB::select('select * from exercices where id = ?', [1]);
     if( $exercice[0]->allow == 1 ) return view('cours.2-activite2');
@@ -66,6 +69,19 @@ Route::get('/ce_nest_pas_le_lien_de_lactivite_2/answers', function () {
 
     return back(); 
 });
+
+/*
+* Activité 3
+*/
+
+Route::get('/super_hero_exo3', function () {
+    $exercice = DB::select('select * from exercices where id = ?', [2]);
+    if( $exercice[0]->allow == 1 ) return view('cours.3-activite3');
+
+    return back();
+    
+})->name('activite3');
+
 
 Route::middleware(['auth', 'role:admin'])->group(function () {
     Route::get('/admin', function () {

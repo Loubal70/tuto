@@ -232,10 +232,10 @@
     </div>
 
     <div class="page-footer">
-        <a href="{{ route('home')}}" class="prev">
+        <a href="{{ route('activite2')}}" class="prev">
             <img src="img/arrow.svg" alt="">
             <div class="prev__meta"><span>{{ __('dashboard.Previous') }}</span>
-                <p>Introduction</p>
+                <p>{{ __('exo2.Activity 1') }}</p>
             </div>
         </a>
         {{-- <a href="{{ route('activite2') }}" class="next">

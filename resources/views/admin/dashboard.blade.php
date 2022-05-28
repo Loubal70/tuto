@@ -12,6 +12,7 @@
             <a href="{{ route('desactive', 1) }}" class="btn btn-danger m-0">Désactiver l'activité 1</a>
         @endif
     </div>
+    
     <div class="sub">
         <h3 class="sub-title">Exercice : Points sur la courbe</h3>
         <p class="text">   
@@ -21,6 +22,18 @@
             <a href="{{ route('active', 3) }}" class="btn m-0">Activer l'exercice des points</a>
         @else
             <a href="{{ route('desactive', 3) }}" class="btn btn-danger m-0">Désactiver l'exercice des points</a>
+        @endif
+    </div>
+
+    <div class="sub">
+        <h3 class="sub-title">Exercice 3 : Particules (Vidéo)</h3>
+        <p class="text">   
+            Vous pouvez activer ou désactiver un exercice !
+        </p>
+        @if ($exercices[1]->allow == 0)
+            <a href="{{ route('active', 2) }}" class="btn m-0">Activer l'exercice des particules</a>
+        @else
+            <a href="{{ route('desactive', 2) }}" class="btn btn-danger m-0">Désactiver l'exercice des particules</a>
         @endif
     </div>
 
