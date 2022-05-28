@@ -10,4 +10,6 @@ return [
     "Next" => "Next",
     "Previous" => "Previous",
     "Getting started" => "Getting started",
+    "Points to the curve" => "Points to the curve",
+    
 ];

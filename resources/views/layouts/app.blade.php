@@ -69,6 +69,9 @@
                         <nav class="menu__nav">
                             <ul class="menu__menu">
                                 <a href="{{ route('home') }}" class="menu__item {{ (request()->routeIs('home')) ? 'active' : "" }}">Introduction</a>
+                                @if ($exercices[0]->allow == 1)
+                                <a href="{{ route('activite2') }}" class="menu__item {{ (request()->routeIs('activite2')) ? 'active' : "" }}">{{ __('exo2.Activity 1') }}</a>
+                                @endif
                                 <div class="menu__submenu">
                                     <a href="{{ route('getting_started') }}" class="menu__item {{ (request()->routeIs('getting_started')) ? 'active' : "" }}">{{ __('dashboard.Getting started') }}</a>
                                     <ul>
@@ -79,13 +82,10 @@
                                             <a href="{{ route('getting_started') }}#CSS" class="menu__item">CSS / JS</a>
                                         </li>
                                         <li>                        
-                                            <a href="{{ route('getting_started') }}#points_curve" class="menu__item">Points to the curve</a>
+                                            <a href="{{ route('getting_started') }}#points_curve" class="menu__item">{{ __("dashboard.Points to the curve") }}</a>
                                         </li>
                                     </ul>
                                 </div>
-                                @if ($exercices[0]->allow == 1)
-                                    <a href="{{ route('activite2') }}" class="menu__item {{ (request()->routeIs('activite2')) ? 'active' : "" }}">{{ __('exo2.Activity 2') }}</a>
-                                @endif
 
             
                             </ul>

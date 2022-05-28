@@ -101,6 +101,12 @@
         <p class="text mt-10">
             {!! __("exo1.Following this scrolltrigger, we add the “.from” function which is therefore added in parallel with this scrolltrigger. We can thus add what we want behind it, that we want to execute at the same time as this scrolltrigger. Here, we need a drawsvg to display the <b>ON</b> curve of the scroll. We target our <b>curve1</b> element which is our purple curve, and we apply a drawSVG to it, which is at base 0%, hence the <b>0</b> parameter. The curve will then be undrawn at baseline, and will draw up to 100% when the scroll trigger comes to an end. If you've done everything right so far, your curve should be animated correctly, appear on scroll, above the gray curve. If so, congratulations! You can adjust the values of start and end, for a different rendering according to your screen, or even change the width of svgbox in css, which will change the final size of your curve.") !!}
         </p>
+
+        <div class="info-box mt-10"><img src="img/warning.svg" alt="">
+            <p class="info-box-text">
+                ✋ STOP
+            </p>
+        </div>
       
     </div>
 
@@ -114,7 +120,7 @@
 
         <x-torchlight-code language='html'>
             <circle class="ball ball02" cx="300" cy="445" r="20"/> 
-            <circle class="ball ball04" cx="672" cy="250" r="20"/>
+            <circle class="ball ball03" cx="672" cy="250" r="20"/>
         </x-torchlight-code>
 
         <p class="text mt-10">
@@ -211,26 +217,11 @@
         </p>
 
         <x-torchlight-code language='html'>
-            <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 7.4px;" 
-                    x="9.709" y="491.347" transform="matrix(1.705896, 0, 0, 1.576253, -11.111875, - 278.975403)">
-                    2000
-            </text> 
-            <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 7.4px;" 
-                    x="9.709" y="491.347" transform="matrix(1.705896, 0, 0, 1.576253, 167.851242, - 278.745972)">
-                    2010
-            </text> 
-            <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 7.4px;" 
-                    x="9.709" y="491.347" transform="matrix(1.705896, 0, 0, 1.576253, 348.691925, - 277.494873)">
-                    2020
-            </text> 
-            <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 7.4px;" 
-            x="9.709" y="491.347" transform="matrix(1.705896, 0, 0, 1.576253, 529.409668, - 277.281067)">
-                    2030
-            </text> 
-            <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 7.4px;" 
-            x="9.709" y="491.347" transform="matrix(1.705896, 0, 0, 1.576253, 709.322693, - 276.857483)">
-                    2040
-            </text>
+            <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 7.4px;" x="9.709" y="491.347">2000</text>
+            <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 7.4px;" x="190.709" y="491.347">2010</text>
+            <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 7.4px;" x="370.709" y="491.347">2020</text>
+            <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 7.4px;" x="550.709" y="491.347">2030</text>
+            <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 7.4px;" x="730.709" y="491.347">2040</text>
         </x-torchlight-code>
 
         <p class="text mt-10">
@@ -247,12 +238,12 @@
                 <p>Introduction</p>
             </div>
         </a>
-        <a href="{{ route('activite2') }}" class="next">
+        {{-- <a href="{{ route('activite2') }}" class="next">
             <img src="img/arrow.svg" alt="">
             <div class="prev__meta"><span>{{ __('dashboard.Next') }}</span>
                 <p>{{ __('exo2.Activity 2') }}</p>
             </div>
-        </a>
+        </a> --}}
     </div>
 
 </x-app-layout>

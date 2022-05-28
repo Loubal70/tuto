@@ -1,7 +1,7 @@
 <?php 
 
 return [
-    "Activity 2" => "Activité 2",
+    "Activity 1" => "Activité 1",
     "Zoom images on scroll" => "Zoom des images au scroll",
     "This exercise is independent! The goal is to animate an image when scrolling the page (when you go down the page) by integrating a zoom effect." => "Cet exercice est en autonomie ! Le but est d'animer une image au scroll de la page (quand vous descendez dans la page) en intégrant un effet de zoom.",
     "Links" => "Liens",

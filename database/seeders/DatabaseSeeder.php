@@ -16,11 +16,16 @@ class DatabaseSeeder extends Seeder
     {
         DB::table("exercices")->insert([
             "name" => "Exercice 2",
-            "allow" => 0
+            "allow" => 1
         ]);
 
         DB::table("exercices")->insert([
             "name" => "Exercice 3",
+            "allow" => 0
+        ]);
+
+        DB::table("exercices")->insert([
+            "name" => "Point courbe",
             "allow" => 0
         ]);
 
