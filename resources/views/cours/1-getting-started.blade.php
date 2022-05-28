@@ -238,12 +238,12 @@
                 <p>{{ __('exo2.Activity 1') }}</p>
             </div>
         </a>
-        {{-- <a href="{{ route('activite2') }}" class="next">
+        <a href="{{ route('activite3') }}" class="next">
             <img src="img/arrow.svg" alt="">
             <div class="prev__meta"><span>{{ __('dashboard.Next') }}</span>
-                <p>{{ __('exo2.Activity 2') }}</p>
+                <p>{{ __('exo3.Activity 3') }}</p>
             </div>
-        </a> --}}
+        </a>
     </div>
 
 </x-app-layout>
