@@ -20,7 +20,8 @@
         </p>
     </div>
     <div class="page-footer">
-        <a href="{{ route('activite2')}}" class="next"> {{ /* Activité 2 is activite 1 */ }}
+        <a href="{{ route('activite2')}}" class="next">
+            {{-- L'activité 2 c'est la 1 --}}
             <img src="img/arrow.svg" alt="">
             <div class="prev__meta"><span>{{ __('dashboard.Next') }}</span>
                 <p>{{ __('exo2.Activity 1') }}</p>
