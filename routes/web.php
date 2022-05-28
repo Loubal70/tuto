@@ -45,7 +45,11 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('/getting_started', function () {
-    return view('cours.1-getting-started');
+    $exercice = DB::select('select * from exercices where id = ?', [1]);
+    if( $exercice[2]->allow == 1 ) return view('cours.1-getting-started');
+
+    return back();
+    
 })->name('getting_started');
 
 Route::get('/ce_nest_pas_le_lien_de_lactivite_2', function () {

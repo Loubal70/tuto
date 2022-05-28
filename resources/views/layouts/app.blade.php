@@ -72,6 +72,8 @@
                                 @if ($exercices[0]->allow == 1)
                                 <a href="{{ route('activite2') }}" class="menu__item {{ (request()->routeIs('activite2')) ? 'active' : "" }}">{{ __('exo2.Activity 1') }}</a>
                                 @endif
+                                
+                                @if ($exercices[2]->allow == 1)
                                 <div class="menu__submenu">
                                     <a href="{{ route('getting_started') }}" class="menu__item {{ (request()->routeIs('getting_started')) ? 'active' : "" }}">{{ __('dashboard.Getting started') }}</a>
                                     <ul>
@@ -86,6 +88,7 @@
                                         </li>
                                     </ul>
                                 </div>
+                                @endif
 
             
                             </ul>
