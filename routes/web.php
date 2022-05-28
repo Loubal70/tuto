@@ -45,8 +45,8 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('/getting_started', function () {
-    $exercice = DB::select('select * from exercices where id = ?', [1]);
-    if( $exercice[2]->allow == 1 ) return view('cours.1-getting-started');
+    $exercice = DB::select('select * from exercices where id = ?', [3]);
+    if( $exercice[0]->allow == 1 ) return view('cours.1-getting-started');
 
     return back();
     
