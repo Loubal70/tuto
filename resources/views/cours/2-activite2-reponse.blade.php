@@ -25,10 +25,16 @@
 
 
     <div class="page-footer">
-        <a href="{{ route('activite2') }}" class="prev">
-            <img src="{{ asset('img/arrow.svg') }}" alt="">
+        <a href="{{ route('home')}}" class="prev">
+            <img src="img/arrow.svg" alt="">
             <div class="prev__meta"><span>{{ __('dashboard.Previous') }}</span>
-                <p>{{ __('exo2.Activity 2') }}</p>
+                <p>Introduction</p>
+            </div>
+        </a>
+        <a href="{{ route('getting_started') }}" class="next">
+            <img src="img/arrow.svg" alt="">
+            <div class="prev__meta"><span>{{ __('dashboard.Next') }}</span>
+                <p>{{ __('dashboard.Getting started') }}</p>
             </div>
         </a>
     </div>

@@ -20,31 +20,11 @@
         </p>
     </div>
     <div class="page-footer">
-        <a href="{{ route('getting_started')}}" class="next">
+        <a href="{{ route('activite2')}}" class="next"> {{ /* Activité 2 is activite 1 */ }}
             <img src="img/arrow.svg" alt="">
             <div class="prev__meta"><span>{{ __('dashboard.Next') }}</span>
-                <p>{{ __('dashboard.Getting started') }}</p>
+                <p>{{ __('exo2.Activity 1') }}</p>
             </div>
         </a>
-    </div>
-    <div class="modal__container" id="modal-container">
-        <div class="modal__content">
-            <div class="modal__close close-modal" title="Close">
-                x
-            </div>
-
-            <img src="img/star-trophy.png" alt="" class="modal__img">
-
-            <h1 class="modal__title">Good Job!</h1>
-            <p class="modal__description">Click the button to close</p>
-
-            <button class="modal__button modal__button-width">
-                View status
-            </button>
-
-            <button class="modal__button-link close-modal">
-                Close
-            </button>
-        </div>
     </div>
 </x-app-layout>

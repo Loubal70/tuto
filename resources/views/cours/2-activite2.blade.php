@@ -19,16 +19,16 @@
 
 
     <div class="page-footer">
-        <a href="{{ route('getting_started')}}" class="prev">
+        <a href="{{ route('home')}}" class="prev">
             <img src="img/arrow.svg" alt="">
             <div class="prev__meta"><span>{{ __('dashboard.Previous') }}</span>
                 <p>Introduction</p>
             </div>
         </a>
-        <a href="understand-basics" class="next">
+        <a href="{{ route('getting_started') }}" class="next">
             <img src="img/arrow.svg" alt="">
             <div class="prev__meta"><span>{{ __('dashboard.Next') }}</span>
-                <p>Understand basics</p>
+                <p>{{ __('dashboard.Getting started') }}</p>
             </div>
         </a>
     </div>
