@@ -10,5 +10,5 @@ return [
     "Next" => "Suivant",
     "Getting started" => "Commencer",
     "Previous" => "Précédent",
-    "Points to the curve" => "Points à la courbe",
+    "Points to the curve" => "Points sur la courbe",
 ];
