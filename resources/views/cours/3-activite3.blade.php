@@ -10,7 +10,7 @@
         </p>
 
         <div class="aspect-w-16 aspect-h-9">
-            <iframe src="https://www.youtube.com/embed/GN_92fWPJh4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/GN_92fWPJh4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 100%; height: 450px; margin-bottom: 3rem"></iframe>
         </div>
         
         
